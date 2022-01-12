@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d("MainActivity", "Test debug")
-        Log.e("MainActitviry", "Test error")
-        Log.i("MainActitviry", "Test info")
-        Log.v("MainActitviry", "Test info")
-        Log.w("MainActitviry", "Test info")
+        Log.e("MainActivity", "Test error")
+        Log.i("MainActivity", "Test info")
+        Log.v("MainActivity", "Test info")
+        Log.w("MainActivity", "Test info")
     }
 }
